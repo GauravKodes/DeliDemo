@@ -1,0 +1,9 @@
+{
+    "host": "localhost",
+    "port": 3030,
+    "public": "../assets/data.json",
+    "paginate": {
+      "default": 10,
+      "max": 50
+    }
+  }
