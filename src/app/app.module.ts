@@ -20,7 +20,9 @@ import { FileDropDirective, FileSelectDirective } from 'ng2-file-upload';
     RocheNavigationComponent,
     RocheLeftSidebarComponent,
     RocheRightSidebarComponent,
-    RocheCanvasAreaComponent
+    RocheCanvasAreaComponent,
+    FileDropDirective,
+    FileSelectDirective
   ],
   imports: [
     BrowserModule,
