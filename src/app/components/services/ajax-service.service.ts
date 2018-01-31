@@ -19,11 +19,15 @@ export class AjaxServiceService implements OnInit {
 
   sharedData:any=[];
   public getJson(): Observable<any> {
-    // put your local address here for getting the Data from AuroraDB.
-    return this.http.get("http://localhost:8080/getEmp")
+    // put your local address here for getting the Data from AuroraDB- Microservice.
+    return this.http.get(URL)
                     .map((res:any) => res.json());
   }
 }
+
+const URL= "http://10.21.219.170:8080/SpringBootMailRESTApi/iris/fetchImageObject"
+
+const localURL="./assets/data.json"
 
 
 // this.getJson().subscribe(result=>{

@@ -1,9 +1,11 @@
-{
-    "host": "localhost",
-    "port": 3030,
-    "public": "../assets/data.json",
-    "paginate": {
-      "default": 10,
-      "max": 50
-    }
-  }
+[{
+	"IMAGE_OBJECT_ID": "0",
+	"SHAPE": "Pentagon",
+	"GEOMETRY_TYPE": "25.0",
+	"IRIS_IMAGE_ID": "65.0"
+}, {
+	"IMAGE_OBJECT_ID": "1",
+	"SHAPE": "Hexagon",
+	"GEOMETRY_TYPE": "30.0",
+	"IRIS_IMAGE_ID": "45.0"
+}]
